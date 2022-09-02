@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 80vw;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%); 
+}
+
+p {
+    text-align: center;
+    font-size: 10vw;
+    color: #afacac;
+}
+
+span {
+    display: inline-block;
+    animation: animate 1s;
+}
+
+@keyframes animate {
+
+    0% {
+        color: #888383;
+        scale: 1;
+    }
+
+    100% {
+        color: #2e2d2d;   
+        scale: 1.5;    
+    }
+    
+}
